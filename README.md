@@ -1,5 +1,5 @@
 # Ask Cleo
-A mobile-first application that allows the bored elementary school-aged child to ask Cleo, the cat, about what to do (and not bother mommy).
+A mobile-first application that allows the bored elementary school-aged child to ask Cleo the Cat, about what to do (and not bother mommy).
 
 ![HTML Badge](https://img.shields.io/badge/-HTML-323795) ![CSS Badge](https://img.shields.io/badge/-CSS-01A990) ![JavaScript Badge](https://img.shields.io/badge/-JavaScript-539436) ![API Badge](https://img.shields.io/badge/-API-F58021)
 
@@ -8,7 +8,8 @@ A mobile-first application that allows the bored elementary school-aged child to
 
 ## User Story
 ```
-As a little human, so bored and not knowing what to do (I have already asked mommy but her ideas were so lame and she told me to stop bothering her and go Ask Cleo)
+As a little human, so bored and not knowing what to do 
+(I have already asked mommy but her ideas were so lame and she told me to stop bothering her and go Ask Cleo)
 I want to go on my tablet and ask Cleo the Cat for suggestions on what to do
 So that I can do an activity and not be bored
 ```
