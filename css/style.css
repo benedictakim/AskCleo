@@ -104,3 +104,95 @@ body {
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
+
+body
+{
+  background-color: #98E5E8;
+  margin: 50px 50px;
+}
+
+ul
+{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav
+{
+  width: 1100px;
+}
+
+.nav li
+{
+  float: left;
+  margin-right: 20px;
+}
+
+.nav-button
+{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  background-color: #E8B898;
+  border-radius: 50px;
+  box-shadow: inset 10px 10px 10px rgba(255, 255, 255, 0.65), 
+              inset -10px -10px 10px rgba(0, 0, 0, 0.65),
+              10px 10px 20px rgba(0, 0, 0, 0.35);
+  transition: all 0.1s;
+}
+
+.nav-button span
+{
+  font: bold 25px Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0);
+  position: relative;
+  top: -47px;
+  transition: all 0.1s;
+}
+
+.nav-button:before
+{
+  display: block;
+  content: '';
+  color: rgba(255, 255, 255, 0.5);
+  font: normal 125px/200px 'FontAwesome';
+  position: relative;
+  left: -3px;
+}
+
+.icon-home:before { content: '\f015'; }
+.icon-cart:before { content: '\f07a'; }
+.icon-refresh:before { content: '\f021'; }
+.icon-photo:before { content: '\f03e'; }
+.icon-heart:before { content: '\f004'; }
+
+.nav-button:hover
+{
+  background-color: #F59E94;
+  -webkit-transform: rotate(-10deg) scale(1.25) translate(0, 25px);
+  -moz-transform: rotate(-10deg) scale(1.25) translate(0, 25px);
+  -ms-transform: rotate(-10deg) scale(1.25) translate(0, 25px);
+  transform: rotate(-10deg) scale(1.25) translate(0, 25px);
+  transition: all 0.5s;
+}
+
+.nav-button:active
+{
+  background-color: #DB8E85;
+  box-shadow: inset 10px 10px 10px rgba(255, 255, 255, 0.65), 
+              inset -10px -10px 10px rgba(0, 0, 0, 0.65);
+  -webkit-transform: rotate(-10deg) scale(1.25) translate(10px, 35px);
+  -moz-transform: rotate(-10deg) scale(1.25) translate(10px, 35px);
+  -ms-transform: rotate(-10deg) scale(1.25) translate(10px, 35px);
+  transform: rotate(-10deg) scale(1.25) translate(10px, 35px);
+  transition: all 0.05s;
+}
+
+.nav-button:hover span 
+{
+  color: rgba(255, 255, 255, 0.5);
+  transition: all 0.5s;
+}
