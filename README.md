@@ -6,14 +6,17 @@ A mobile-first application that allows the bored elementary school-aged child to
 ![Application Screenshot](placeholder)
 
 
-## User Story
+## User Story: Little Human
 ```
 As a little human, so bored and not knowing what to do 
 (I have already asked mommy but her ideas were so lame and she told me to stop bothering her and go Ask Cleo)
 I want to go on my tablet and ask Cleo the Cat for suggestions on what to do
 So that I can do an activity and not be bored
 ```
-
+## User Story: Caregiver of Little Human
+```
+Attention caregivers of elementary school-aged children: the next time your child complains "I'm bored. What can I do?!", deflect to "Ask Cleo" and enjoy your nag-free time while Cleo keeps your child occupied.
+```
 
 ## Functionality
 ```
