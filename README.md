@@ -3,7 +3,7 @@ A mobile-first application that allows the bored elementary school-aged child to
 
 ![HTML Badge](https://img.shields.io/badge/-HTML-323795) ![CSS Badge](https://img.shields.io/badge/-CSS-01A990) ![JavaScript Badge](https://img.shields.io/badge/-JavaScript-539436) ![API Badge](https://img.shields.io/badge/-API-F58021)
 
-![Application Screenshot](placeholder)
+![Application Screenshot](/images/askcleo.gif)
 
 
 ## User Story: Little Human
@@ -11,11 +11,13 @@ A mobile-first application that allows the bored elementary school-aged child to
 As a little human, so bored and not knowing what to do 
 (I have already asked mommy but her ideas were so lame and she told me to stop bothering her and go Ask Cleo)
 I want to go on my tablet and ask Cleo the Cat for suggestions on what to do
-So that I can do an activity and not be bored
+So that I can do something fun and not be bored.
 ```
 ## User Story: Caregiver of Little Human
 ```
-Attention caregivers of elementary school-aged children: the next time your child complains "I'm bored. What can I do?!", deflect to "Ask Cleo" and enjoy your nag-free time while Cleo keeps your child occupied.
+Attention caregivers of elementary school-aged children: 
+the next time your child complains "I'm bored. What can I do?!", 
+defer to "Ask Cleo" and enjoy your nag-free time while Cleo keeps your child occupied.
 ```
 
 ## Functionality
@@ -32,8 +34,7 @@ See you later little human
 
 Backend:
 dad jokes API
-weather API
-moments for 
+
 
 ```
 

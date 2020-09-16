@@ -1,0 +1,135 @@
+  
+html,
+body {
+  height: 100%;
+  background-color: white;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+}
+
+/* body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	overflow: hidden;
+}
+p {
+	position: absolute;
+	color: #fff;
+	width: 100%;
+	bottom: 45%;
+	pointer-events: none;
+} */
+
+/*Layout*/
+
+body {
+  background-image: url("data:image/svg+xml;utf8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='5' height='5' style='background%2Dcolor:hsl(31,100%,56%);'%3E%3Cline x2='5' y2='5' stroke='hsl(40,100%,68%)' /%3E%3C/svg%3E");
+}
+
+svg {
+  width: 150px;
+  overflow: visible;
+  pointer-events:none;
+}
+
+.a {
+  display: grid;
+  grid-template-columns: 217px;
+  grid-template-rows: 115px;
+}
+
+.b {
+  display: grid;
+  width: 415px;
+  height: 265px;
+  grid-template-columns: repeat(3, 132px);
+  grid-template-rows: 115px;
+
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+svg {
+  display: block;
+  justify-self: start;
+}
+
+svg:nth-of-type(2) {
+  justify-self: end;
+}
+
+/*SVG*/
+
+#root {
+  position: absolute;
+  width: 1px;
+  left: -100em;
+}
+
+svg * {
+}
+.theHex {
+  pointer-events: all;
+}
+#theHex {
+  stroke: #522814;
+  stroke-width: 5px;
+}
+use {
+  transition: transform 0.3s ease-out;
+}
+.use_lb {
+  transform-origin: 47px 101px;
+}
+.use_lt {
+  transform-origin: 44px 96px;
+}
+.use_rb {
+  transform-origin: 105px 101px;
+}
+.use_rt {
+  transform-origin: 108px 96px;
+}
+.use_eyes {
+  transform-origin: 104px 76px;
+}
+
+.theHex ~ use {
+  pointer-events: none;
+}
+
+.theHex:hover ~ .use_lb,
+.theHex:hover ~ .use_lt {
+  transform: rotate(25deg);
+}
+
+.theHex:hover ~ .use_rb,
+.theHex:hover ~ .use_rt {
+  transform: rotate(-25deg);
+}
+
+.theHex:hover ~ .use_eyes {
+  transform: scaleY(0.5);
+}
+
+#snout,
+#ears,
+#wiskers,
+#eyes {
+  fill: #522814;
+}
+
+.tongue {
+  fill: hsla(0,100%,50%,.5);
+}
